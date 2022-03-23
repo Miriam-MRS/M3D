@@ -1,0 +1,21 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 3220645268.9,"dur": 3586337.3, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 3220652932.2,"dur": 45866.2, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 3223566157.3,"dur": 605254.9, "ph":"X", "name": "ProducePlayerScriptAssemblies"},
+{ "pid": "Unity", "tid": 1,"ts": 3224133220.4,"dur": 38006.1, "ph":"X", "name": "Prebuild Cleanup and Recompile"},
+{}
+
+],
+"meta_datetime": "03/23/2022 21:56:54",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.2.13f1\\Editor\\Unity.exe\" -projectpath C:\\Users\\Admin\\Desktop\\M3D\\FruitSlicer -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-Admin -hubSessionId f1a421d0-aade-11ec-a346-c51744db3bfe -accessToken kpFAWEIAxaFZI8Qbi6Wsr9wWEEj8i4CYiEvJGAkSmv4007f",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.2.13f1\\Editor\\Unity.exe -projectpath C:\\Users\\Admin\\Desktop\\M3D\\FruitSlicer -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-Admin -hubSessionId f1a421d0-aade-11ec-a346-c51744db3bfe -accessToken kpFAWEIAxaFZI8Qbi6Wsr9wWEEj8i4CYiEvJGAkSmv4007f",
+"meta_user_name": "Admin",
+"meta_os_version": "Microsoft Windows NT 10.0.19042.0",
+"meta_cpu_count": "8"
+}

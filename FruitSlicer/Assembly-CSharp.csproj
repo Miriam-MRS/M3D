@@ -58,8 +58,11 @@
     <Compile Include="Assets\Scripts\Game\CuttableObject.cs" />
     <Compile Include="Assets\Scripts\Game\ObjectSpawner.cs" />
     <Compile Include="Assets\Scripts\Title\ScoreText.cs" />
-    <Compile Include="Assets\Scripts\Game\Blade.cs" />
     <Compile Include="Assets\Scripts\Title\LifeCounter.cs" />
+    <Compile Include="Assets\Scripts\Game\Blade.cs" />
+    <Compile Include="Assets\Scripts\Music\BackgroundMusic.cs" />
+    <Compile Include="Assets\Scripts\Music\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\Game\ExitGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FoodAndGrocery\Info.txt" />
